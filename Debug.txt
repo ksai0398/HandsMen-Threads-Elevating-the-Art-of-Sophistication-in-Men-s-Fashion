@@ -1,0 +1,5 @@
+To create a new Apex Class follow the below steps: 
+Click on the file → Debug → Open Execute Anonymous Window
+
+System.schedule(‘Daily Inventory Sync’ , ‘0 0 0 * * ?’ , new InventoryBatchJob());
+
